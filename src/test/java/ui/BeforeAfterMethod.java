@@ -13,6 +13,8 @@ public class BeforeAfterMethod {
 	{
 		System.out.println("Login To Application");		
 	}
+	
+	
 
 	@AfterTest
 	public void logoutToApplication() 
