@@ -43,7 +43,7 @@ public class farmXtest {
 		
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("uday.patre@farmx.ag");
-		driver.findElement(By.id("password")).sendKeys("QAuday@123");
+		driver.findElement(By.id("password")).sendKeys("*******");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@data-test-id='login-submit']")).click();
 	}
